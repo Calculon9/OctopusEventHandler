@@ -1,0 +1,7 @@
+C:\Users\Callum\Desktop\Projects\OctopusEventHandler\bin\Release\net6.0\publish\OctopusEventHandler.dll
+C:\Users\Callum\Desktop\Projects\OctopusEventHandler\bin\Release\net6.0\publish\OctopusEventHandler.deps.json
+C:\Users\Callum\Desktop\Projects\OctopusEventHandler\bin\Release\net6.0\publish\OctopusEventHandler.runtimeconfig.json
+C:\Users\Callum\Desktop\Projects\OctopusEventHandler\bin\Release\net6.0\publish\OctopusEventHandler.pdb
+C:\Users\Callum\Desktop\Projects\OctopusEventHandler\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+C:\Users\Callum\Desktop\Projects\OctopusEventHandler\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Callum\Desktop\Projects\OctopusEventHandler\bin\Release\net6.0\publish\Newtonsoft.Json.dll
