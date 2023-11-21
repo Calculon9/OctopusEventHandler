@@ -1,0 +1,1 @@
+Compress-Archive -Path .\* -DestinationPath "C:\Users\Callum\Desktop\Projects\OctopusEventHandler\Lambda.zip" -Update
