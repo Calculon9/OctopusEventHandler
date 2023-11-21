@@ -1,0 +1,85 @@
+{
+  "Timestamp": "2023-11-21T06:54:56.658+00:00",
+  "EventType": "SubscriptionPayload",
+  "Payload": {
+    "ServerUri": "https://cs.octopus.app",
+    "ServerAuditUri": "https://cs.octopus.app/app#/Spaces-1/configuration/audit?triggerGroups=Machine&from=2023-11-21T06%3a54%3a25.%2b00%3a00&to=2023-11-21T06%3a54%3a55.%2b00%3a00",
+    "BatchProcessingDate": "2023-11-21T06:54:55.866+00:00",
+    "Subscription": {
+      "Id": "Subscriptions-1",
+      "Name": "Machine Events",
+      "Type": "Event",
+      "IsDisabled": false,
+      "EventNotificationSubscription": {
+        "Filter": {
+          "Users": [],
+          "Projects": [],
+          "ProjectGroups": [],
+          "Environments": [],
+          "EventGroups": [
+            "Machine"
+          ],
+          "EventCategories": [],
+          "EventAgents": [],
+          "Tenants": [],
+          "Tags": [],
+          "DocumentTypes": []
+        },
+        "EmailTeams": [],
+        "EmailFrequencyPeriod": "01:00:00",
+        "EmailPriority": "Normal",
+        "EmailDigestLastProcessed": null,
+        "EmailDigestLastProcessedEventAutoId": null,
+        "EmailShowDatesInTimeZoneId": "UTC",
+        "WebhookURI": "https://en7dxi11ics5y.x.pipedream.net",
+        "WebhookTeams": [],
+        "WebhookTimeout": "00:00:10",
+        "WebhookHeaderKey": null,
+        "WebhookHeaderValue": null,
+        "WebhookLastProcessed": "2023-11-21T06:54:25.651+00:00",
+        "WebhookLastProcessedEventAutoId": 1473
+      },
+      "SpaceId": "Spaces-1",
+      "Links": {
+        "Self": "/api/Spaces-1/subscriptions/Subscriptions-1"
+      }
+    },
+    "Event": {
+      "Id": "Events-2018",
+      "RelatedDocumentIds": [
+        "Machines-1",
+        "Environments-3"
+      ],
+      "Category": "MachineHealthy",
+      "UserId": "users-system",
+      "Username": "system",
+      "IsService": false,
+      "IdentityEstablishedWith": "",
+      "UserAgent": "Server",
+      "Occurred": "2023-11-21T06:54:27.390+00:00",
+      "Message": "DeploymentTarget Test became healthy",
+      "MessageHtml": "DeploymentTarget <a href='#/machines/Machines-1'>Test</a> became healthy",
+      "MessageReferences": [
+        {
+          "ReferencedDocumentId": "Machines-1",
+          "StartIndex": 17,
+          "Length": 4
+        }
+      ],
+      "Comments": null,
+      "Details": null,
+      "ChangeDetails": {
+        "DocumentContext": null,
+        "Differences": null
+      },
+      "IpAddress": null,
+      "SpaceId": "Spaces-1",
+      "Links": {
+        "Self": "/api/events/Events-2018"
+      }
+    },
+    "BatchId": "94864938-cdf4-49a7-a790-9ae9eaeb7188",
+    "TotalEventsInBatch": 1,
+    "EventNumberInBatch": 1
+  }
+}
